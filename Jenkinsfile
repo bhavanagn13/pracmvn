@@ -18,7 +18,7 @@ pipeline{
 		
 		stage('Run application'){
 			steps{
-				sh "java -jar target/pracmvn--1.0-SNAPSHOT.jar "
+				sh "java -jar target/pracmvn-1.0-SNAPSHOT.jar "
 			}
 		}
 	}
